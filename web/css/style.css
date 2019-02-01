@@ -1,0 +1,151 @@
+body,
+html {
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	background: #494A5F;
+	color: #D5D6E2;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
+}
+
+a {
+	color: #2fa0ec;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: #74777b;
+}
+
+
+.containers {
+	width: 1920px;
+	height: 1080px;
+	background: url(../static/img/dm.png);
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	width: 300px;
+	height: 371px;
+	top: 340px;
+	right: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo p {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 60px;
+	color: #DDAC44;
+	margin-top: 30px;
+}
+
+.logo img {
+	width: 200px;
+	margin-top: 25px;
+	height: 200px;
+}
+
+#main {
+	width: 1360px;
+	height: 780px;
+	margin-top: 76px;
+	padding: 20px;
+	margin-left: 76px;
+	overflow: hidden;
+	position: relative;
+}
+
+.main-container {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100px;
+	height: 150px;
+	margin-left: 30px;
+}
+
+.main-container .img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	position: relative;
+	top: 12px;
+	z-index: 100;
+}
+
+.main-container span {
+
+	width: 60px;
+	height: 26px;
+	background: #fff;
+	text-align: center;
+	border-radius: 13px;
+	font-size: 18px;
+	line-height: 26px;
+	z-index: 190;
+}
+
+.main-container strong {
+	color: #fff;
+}
+
+.aB {
+	position: absolute;
+	top: 0;
+	right: 40px;
+	z-index: 9999;
+}
+
+.button {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	color: white;
+	padding: 0px 12px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+}

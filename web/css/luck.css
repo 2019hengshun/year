@@ -1,0 +1,333 @@
+.containerL {
+	width: 1920px;
+	height: 1080px;
+	background: url(../static/img/cj.png);
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.good {
+	position: absolute;
+	top: 1px;
+	left: 955px;
+}
+
+.img {}
+
+.list1 {
+	position: absolute;
+	top: 480px;
+	left: 183px;
+	text-align: center;
+	width: 261px;
+}
+
+.list2 {
+	position: absolute;
+	top: 400px;
+	left: 183px;
+	text-align: center;
+	width: 261px;
+}
+
+.list3 {
+	position: absolute;
+	top: 340px;
+	left: 183px;
+	text-align: center;
+	width: 261px;
+}
+
+.lis {
+
+	-webkit-background-clip: text;
+	/*按文字裁剪*/
+	-webkit-text-fill-color: transparent;
+	/*文字的颜色使用背景色*/
+	background-color: #19385c;
+	/*设置一个背景色*/
+	background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #aff0ff 50%, rgba(0, 0, 0, 0.6) 70%);
+	/*设置渐变的背景，按对角线渐变*/
+	background-blend-mode: hard-light;
+	/*设置背景为混合模式下的强光模式*/
+	background-size: 200%;
+	-webkit-animation: shine 4s infinite;
+	/*给背景添加动画改变位置*/
+}
+
+@-webkit-keyframes shine {
+
+	from {
+		background-position: 100%;
+	}
+
+	to {
+		background-position: 0;
+	}
+
+}
+
+.lis p {
+	margin: 0;
+	height: 60px;
+	font-size: 28px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.lis .pp {
+	height: 40px;
+	line-height: 40px;
+}
+
+/* .jl{position: absolute;
+    width:100%;max-width:1500px;margin:0 auto;text-align:center;
+
+    left:150px;
+    top:0;
+} */
+.jlDiv {
+	float: left;
+	margin-top: 360px;
+	margin-left: 510px;
+	z-index: 99;
+	position: relative;
+}
+
+.title {
+	line-height: 80px;
+	text-align: center;
+	font-size: 50px;
+	color: #DDAC44;
+	font-weight: bold;
+}
+
+.t1 {
+	margin-top: 260px;
+}
+
+.code {
+	border-radius: 10px;
+	display: block;
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	margin: 20px 0;
+	text-align: left;
+	font-size: 30px;
+	background: #FFF49E;
+	color: #730011;
+}
+
+.codes {
+	border-radius: 10px;
+	display: block;
+	width: 400px;
+	height: 60px;
+	line-height: 60px;
+	margin: 20px 0;
+	text-align: left;
+	font-size: 30px;
+	background: #FFF49E;
+	color: #730011;
+}
+
+.cc {
+	margin: 10px 0;
+}
+
+.dd {
+	margin: 2px 0;
+}
+
+.btnss {
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	width: 160px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 32px;
+	font-weight: bold;
+	color: #730011;
+	cursor: pointer;
+	position: relative;
+}
+
+.start {
+	background: #FFF49E;
+}
+
+.stop {
+	background: #ddac44;
+}
+
+.restart {
+	position: absolute;
+
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #730011;
+	cursor: pointer;
+	background: #FFF49E;
+	bottom: 20px;
+	right: 20px;
+}
+
+.containerss {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 99;
+}
+
+.containerss>div {
+	width: 600px;
+	height: 500px;
+	position: relative;
+	z-index: 99;
+}
+
+.imgs {
+	position: relative;
+	left: 50px;
+	width: 400px;
+	height: 500px;
+}
+
+.liss1 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+
+}
+
+.liss2 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+
+}
+
+.liss3 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+
+}
+
+.liss4 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+
+}
+
+.liss5 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+
+}
+
+.liss6 {
+	position: absolute;
+	top: 194px;
+	left: 169px;
+	text-align: center;
+	width: 170px;
+}
+
+.containerss p {
+	margin: 0 0 5px;
+	font-weight: bold;
+}
+
+.allWin {
+	position: absolute;
+
+	text-align: center;
+	border-radius: 10px;
+	display: block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #730011;
+	cursor: pointer;
+	background: #FFF49E;
+	bottom: 20px;
+	right: 20px;
+}
+
+.ll2 {}
+
+.containerss2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 99;
+}
+
+.containerss2>div {
+	position: relative;
+	z-index: 99;
+	left: 600px;
+}
+
+.lisss1 {
+	position: absolute;
+	top: 430px;
+	left: 242px;
+	-webkit-background-clip: text;
+	/*按文字裁剪*/
+	-webkit-text-fill-color: transparent;
+	/*文字的颜色使用背景色*/
+	background-color: #19385c;
+	/*设置一个背景色*/
+	background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.6) 30%, #aff0ff 50%, rgba(0, 0, 0, 0.6) 70%);
+	/*设置渐变的背景，按对角线渐变*/
+	background-blend-mode: hard-light;
+	/*设置背景为混合模式下的强光模式*/
+	background-size: 200%;
+	-webkit-animation: shine 4s infinite;
+	/*给背景添加动画改变位置*/
+}
+
+.lisss1 p{
+	margin: 0;
+	height: 60px;
+	font-size: 28px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: center;
+}
